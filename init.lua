@@ -18,7 +18,7 @@ end
 
 if vim.g.vscode then
   -- for vscode extension
-  require "vscode"
+  require "vs"
 else
   -- for original neovim
   require "lazy_setup"
