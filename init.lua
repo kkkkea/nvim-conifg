@@ -18,6 +18,8 @@ end
 
 if vim.g.vscode then
   -- for vscode extension
+  vim.opt.clipboard = "unnamedplus"
+
   require "vs"
 else
   -- for original neovim
